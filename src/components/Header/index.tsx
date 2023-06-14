@@ -7,12 +7,14 @@ import { useNavigation } from '@react-navigation/native';
 import { Fonts } from '../Text';
 
 interface HeaderProps {
-  goBack: boolean; 
+  goBack: boolean;
+  title: string;
+  description: string; 
 }
 
 
 export default function Header(props: HeaderProps) {
-  const { goBack } = props
+  const { goBack, title, description } = props
   const  navigation = useNavigation();
   const voltarPagina = () => {
     navigation.goBack();
@@ -47,12 +49,12 @@ export default function Header(props: HeaderProps) {
     </Container>
     <ContainerText>
         <Text size={18} font={Fonts.Inter_700Bold}>
-          Tranferências Aos Municípios
+          {title}
         </Text>
       </ContainerText>
       <ContainerText>
         <Text size={12} font={Fonts.Inter_400Regular}>
-          Esta seção contém a parcela das receitas arrecadadas pelo Estado de Sergipe que é repassada aos Municípios. Dentre os principais repasses legais e constitucionais fornecidos aos municípios estão: Imposto sobre Circulação de Mercadorias e Serviços – ICMS, Imposto sobre a Propriedade de Veículos Automotores – IPVA, Imposto sobre Produtos Industrializados – IPI, Royalties e Fundo de Desenvolvimento do Ensino Fundamental – FUNDEB.
+          {description}
         </Text>
     </ContainerText>
     </>

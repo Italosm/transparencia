@@ -5,7 +5,11 @@ import Header from '../../components/Header';
 export default function Graphics() {
   return(
       <>
-          <Header goBack={true}/>
+          <Header
+            title='ICMS'
+            description='Os 10 Maiores repasses de ICMS do Estado de Sergipe aos seus municípios' 
+            goBack={true}
+          />
           <Graphic />    
       </>
   )
