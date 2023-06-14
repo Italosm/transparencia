@@ -11,7 +11,7 @@ export default function Graphic() {
   const dezMaioresArrecadacoes = repasseModificado.slice(0, 10);
   return(
       <Container>
-        <VictoryChart height={400}>
+        <VictoryChart height={500}>
           <VictoryAxis
             style={{ tickLabels: { fontSize: 8 } }}
             dependentAxis
@@ -26,7 +26,6 @@ export default function Graphic() {
           />
           
           <VictoryBar
-            
             style={{
               data: { fill: "#00A8FF" }
             }}
