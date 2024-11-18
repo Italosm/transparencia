@@ -1,5 +1,5 @@
 
-# mobile
+# Transparência
 
 ## Descrição
 
@@ -45,11 +45,11 @@ Este projeto é um aplicativo móvel desenvolvido com React Native e Expo, que e
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/mobile.git
+   git clone https://github.com/seu-usuario/transparencia.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd mobile
+   cd transparencia
    ```
 3. Instale as dependências:
    ```bash
@@ -96,7 +96,7 @@ Este projeto é um aplicativo móvel desenvolvido com React Native e Expo, que e
 
 ## Contato
 
-Para mais informações, entre em contato através de [seu-email@dominio.com](mailto:seu-email@dominio.com).
+Para mais informações, entre em contato através de [italosm29@gmail.com](mailto:italosm29@gmail.com).
 
 ---
 
